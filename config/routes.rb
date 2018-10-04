@@ -7,7 +7,9 @@ Rails.application.routes.draw do
 
   get 'foo/baz'
 
-  root 'application#hello'
+  # root 'application#hello'
+  
+  root 'static_pages#home'
   
   get 'static_pages/about'
   

@@ -1,4 +1,7 @@
 class FooController < ApplicationController
+  
+  layout "foo_layout"
+  
   def bar
   end
 
